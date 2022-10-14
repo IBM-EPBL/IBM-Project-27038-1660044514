@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 1</title>
+    <style>
+        h3{text-align: center;}
+        p{text-align: center;}
+        th{background-color: darkblue;}
+        td{background-color: paleturquoise;}
+        h1{color: white;}
+        img{align-content: center;}
+        div {
+            text-align: center;
+          }
+    </style>
+</head>
+
+<body>
+    <table border="3" width="100%">
+        <tr>
+            <tr>
+                <th colspan="2">
+                    <h1>RESHMA B</h1>
+                </th>
+            </tr>
+        </tr>
+        <tr>
+            <td colspan="1" width="50%">
+                <div>
+                    <img src="images/pass1.jpeg" width="600" height="600">
+                </div>
+                <h3>ABOUT ME</h3>
+                <p>
+                    I am an enthusiastic, self-motivated, reliable, responsible and hard working person. 
+                    I am a mature team worker and adaptable to all challenging situations. 
+                    I am able to work well both in a team environment as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
+                    
+                </p>
+            </td>
+            <td>
+                <h3>CONTACT FORM</h3>
+                <div class="cont-contactBtn">
+					<div class="cont-flip">
+						<div class="front">
+							<a href="#" class="btn btn-white flip">Send Message</a>
+						</div>
+						<div class="back">
+							<a href="#" class="flip close"></a>
+							<form class="contact-form" action="">
+								<input class="gutter" type="text" placeholder="Name">
+								<input type="text" placeholder="Company">
+								<input class="gutter" type="text" placeholder="Telephone">
+								<input type="text" placeholder="Email">
+								<textarea name="" id="" placeholder="Leave a message"></textarea>
+								<input type="submit" value="Send">
+							</form>
+						</div>
+					</div>
+                
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
